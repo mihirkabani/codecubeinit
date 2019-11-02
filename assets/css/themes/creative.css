@@ -123,3 +123,9 @@ h6 {
 		color: #000!important
 	}
 }
+
+.abt-cover {
+	position: absolute;
+	right: 0;
+	top: -100px;
+}
