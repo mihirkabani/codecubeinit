@@ -3809,7 +3809,11 @@ ul.pagination .page-numbers.current { color: #16171e; }
 .ld-masked-image figure { background-position: -700% 60%; background-size: 96%; }
 .ld-masked-image img { width: 100%; height: auto; visibility: hidden; }
 
-@media (min-width: 768px) { .ld-masked-image { position: absolute; right: -90vw; left: 42vw; } }
+@media (min-width: 768px) { 
+.ld-masked-image { position: absolute; right: -90vw; left: 42vw; }
+}
+
+
 @media (min-width: 992px) { .ld-masked-image { top: -58vh; right: -65vw; left: 5vw; } }
 /* 3.43. Slideshow BG */
 .slideshow-applied { position: relative; }
@@ -7286,4 +7290,13 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 
 .logo-ftr {
 	max-width: 20%;
+}
+
+@media (max-width: 768px) { 
+.ld-masked-image figure { background-position: -390% 60%; background-size: 130%; }
+.mob-down { padding-top: 300px; }
+.mob-down-title { padding-top: 100px; }
+.pr-small-1 { padding-right: 0.25rem !important }
+.mr-small-2 { margin-right: 2rem !important }
+.pl-small-2 { padding-left: 1rem !important; }
 }
