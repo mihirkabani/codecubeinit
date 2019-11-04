@@ -7293,7 +7293,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 }
 
 @media (max-width: 768px) { 
-.ld-masked-image figure { background-position: -390% 60%; background-size: 130%; }
+.ld-masked-image figure { background-position: -450% 60%; background-size: 130%; }
 .mob-down { padding-top: 300px; }
 .mob-down-title { padding-top: 100px; }
 .pr-small-1 { padding-right: 0.25rem !important }
